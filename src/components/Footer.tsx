@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <h3 className="text-2xl font-bold text-gradient mb-4">
-                Ahmed Bashir Ahmed
+                Ahmed Bashir
               </h3>
               <p className="text-muted-foreground leading-relaxed max-w-md">
                 Full-Stack Developer & AI Automation Expert specializing in building 
@@ -44,7 +44,7 @@ const Footer = () => {
               </a>
               
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ahmed-bashir-278289343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300 glow-gold group"
@@ -53,7 +53,7 @@ const Footer = () => {
               </a>
               
               <a
-                href="https://t.me/ahmedexka"
+                href="https://t.me/+251995817222"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300 glow-gold group"
@@ -113,12 +113,12 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <MessageCircle size={16} className="text-primary" />
                 <a 
-                  href="https://t.me/ahmedexka" 
+                  href="https://t.me/+251995817222" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  @ahmedexka
+                  +251995817222
                 </a>
               </div>
             </div>

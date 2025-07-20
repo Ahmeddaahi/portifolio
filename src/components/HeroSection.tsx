@@ -29,7 +29,7 @@ const HeroSection = () => {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
                   <span className="text-gradient">Ahmed Bashir</span>
                   <br />
-                  <span className="text-foreground">Ahmed</span>
+                  <span className="text-foreground"></span>
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground font-medium">
                   Full-Stack Developer & AI Automation Expert
@@ -51,9 +51,12 @@ const HeroSection = () => {
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </button>
                 
-                <button className="btn-gold-outline flex items-center justify-center gap-2 w-full sm:w-auto">
-                  <Download size={20} />
-                  Download Resume
+                <button 
+                  onClick={() => scrollToSection('booking')}
+                  className="btn-gold-outline flex items-center justify-center gap-2 w-full sm:w-auto"
+                >
+                  <MessageCircle size={20} />
+                  Discuss Your Project
                 </button>
               </div>
 
@@ -68,7 +71,7 @@ const HeroSection = () => {
                   <Github size={24} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/ahmed-bashir-278289343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 border border-border rounded-lg hover:border-primary/50 hover:bg-primary/10 transition-all duration-300 glow-gold"
@@ -76,7 +79,7 @@ const HeroSection = () => {
                   <Linkedin size={24} />
                 </a>
                 <a
-                  href="https://t.me/ahmedexka"
+                  href="https://t.me/+251995817222"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 border border-border rounded-lg hover:border-primary/50 hover:bg-primary/10 transition-all duration-300 glow-gold"

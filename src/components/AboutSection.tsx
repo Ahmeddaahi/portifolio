@@ -1,5 +1,6 @@
 import React from 'react';
 import { Download, Code, Database, Zap, Users } from 'lucide-react';
+import StatCounter from './StatCounter';
 
 const AboutSection = () => {
   const highlights = [
@@ -96,21 +97,15 @@ const AboutSection = () => {
         </div>
 
         {/* Stats */}
+        {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-border">
           {[
-            { number: '50+', label: 'Projects Completed' },
-            { number: '5+', label: 'Years Experience' },
-            { number: '20+', label: 'Happy Clients' },
-            { number: '15+', label: 'Technologies' }
+            { number: '50', suffix: '+', label: 'Projects Completed' },
+            { number: '5', suffix: '+', label: 'Years Experience' },
+            { number: '20', suffix: '+', label: 'Happy Clients' },
+            { number: '15', suffix: '+', label: 'Technologies' }
           ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-gradient mb-2">
-                {stat.number}
-              </div>
-              <div className="text-muted-foreground text-sm">
-                {stat.label}
-              </div>
-            </div>
+            <StatCounter key={index} {...stat} />
           ))}
         </div>
       </div>

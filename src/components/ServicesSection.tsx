@@ -117,7 +117,7 @@ const ServicesSection = () => {
           </p>
           <button 
             onClick={() => {
-              const element = document.getElementById('contact');
+              const element = document.getElementById('booking');
               element?.scrollIntoView({ behavior: 'smooth' });
             }}
             className="btn-gold"

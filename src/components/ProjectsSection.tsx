@@ -16,7 +16,7 @@ const ProjectsSection = () => {
       tech: ['React', 'TypeScript', 'Supabase', 'Tailwind CSS', 'Stripe'],
       features: ['Room Booking', 'Payment Gateway', 'Admin Dashboard', 'Customer Portal'],
       liveUrl: 'https://yusrahotel.com',
-      githubUrl: 'https://github.com/ahmed/yusra-hotel',
+      githubUrl: 'https://github.com/Ahmeddaahi/yusra-hotel',
       status: 'Live'
     },
     {
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
       tech: ['React', 'Node.js', 'MySQL', 'Express', 'PayPal'],
       features: ['Product Catalog', 'Order Management', 'Analytics', 'Multi-Payment'],
       liveUrl: 'https://carwoshop.com',
-      githubUrl: 'https://github.com/ahmed/carwo-shop',
+      githubUrl: 'https://github.com/Ahmeddaahi/carwo-shop',
       status: 'Live'
     },
     {
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
       tech: ['React', 'TypeScript', 'Supabase', 'Chart.js', 'PWA'],
       features: ['Real-time Tracking', 'Auto Reordering', 'Analytics', 'Multi-location'],
       liveUrl: 'https://smartinventory.app',
-      githubUrl: 'https://github.com/ahmed/inventory-system',
+      githubUrl: 'https://github.com/Ahmeddaahi/inventory-system',
       status: 'Live'
     },
     {
@@ -52,7 +52,7 @@ const ProjectsSection = () => {
       tech: ['React Native', 'Node.js', 'MongoDB', 'Socket.io', 'Stripe'],
       features: ['Route Management', 'Seat Selection', 'Real-time Tracking', 'Mobile App'],
       liveUrl: 'https://busbook.app',
-      githubUrl: 'https://github.com/ahmed/bus-booking',
+      githubUrl: 'https://github.com/Ahmeddaahi/bus-booking',
       status: 'Live'
     },
     {
@@ -64,7 +64,7 @@ const ProjectsSection = () => {
       tech: ['React', 'Python', 'FastAPI', 'TensorFlow', 'D3.js'],
       features: ['AI Insights', 'Predictive Analytics', 'Auto Reports', 'Data Visualization'],
       liveUrl: '#',
-      githubUrl: 'https://github.com/ahmed/ai-dashboard',
+      githubUrl: 'https://github.com/Ahmeddaahi/ai-dashboard',
       status: 'In Development'
     },
     {
@@ -76,7 +76,7 @@ const ProjectsSection = () => {
       tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'TradingView'],
       features: ['Portfolio Tracking', 'Risk Assessment', 'Real-time Data', 'Custom Reports'],
       liveUrl: '#',
-      githubUrl: 'https://github.com/ahmed/finance-platform',
+      githubUrl: 'https://github.com/Ahmeddaahi/finance-platform',
       status: 'Planning'
     }
   ];
@@ -199,7 +199,7 @@ const ProjectsSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://github.com/ahmed"
+              href="https://github.com/Ahmeddaahi"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold-outline flex items-center justify-center gap-2"

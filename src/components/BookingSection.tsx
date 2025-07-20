@@ -195,8 +195,8 @@ const BookingSection = () => {
                     </div>
                     <div>
                       <p className="text-foreground font-medium">Telegram</p>
-                      <a href="https://t.me/ahmedexka" className="text-muted-foreground hover:text-primary transition-colors">
-                        @ahmedexka
+                      <a href="https://t.me/+251995817222" className="text-muted-foreground hover:text-primary transition-colors">
+                        Telegram
                       </a>
                     </div>
                   </div>
