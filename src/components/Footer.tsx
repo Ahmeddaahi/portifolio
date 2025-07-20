@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-dark border-t border-border">
+    <footer className="relative bg-gradient-dark border-t border-border overflow-hidden">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Ahmeddaahi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300 glow-gold group"
@@ -61,75 +61,75 @@ const Footer = () => {
 
           {/* Quick Links & Contact Info */}
           <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-foreground font-semibold mb-6">Quick Links</h4>
-            <ul className="space-y-3">
-              {[
-                { label: 'About Me', id: 'about' },
-                { label: 'Services', id: 'services' },
-                { label: 'Projects', id: 'projects' },
-                { label: 'Skills', id: 'skills' },
-                { label: 'Contact', id: 'contact' }
-              ].map((link) => (
-                <li key={link.id}>
-                  <button
-                    onClick={() => scrollToSection(link.id)}
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    {link.label}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-foreground font-semibold mb-6">Get in Touch</h4>
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <Phone size={16} className="text-primary" />
-                <a 
-                  href="tel:0995817222" 
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  0995817222
-                </a>
-              </div>
-              
-              <div className="flex items-center gap-3">
-                <Mail size={16} className="text-primary" />
-                <a 
-                  href="mailto:ahmedexka@gmail.com" 
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  ahmedexka@gmail.com
-                </a>
-              </div>
-              
-              <div className="flex items-center gap-3">
-                <MessageCircle size={16} className="text-primary" />
-                <a 
-                  href="https://t.me/+251995817222" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  +251995817222
-                </a>
-              </div>
+            {/* Quick Links */}
+            <div>
+              <h4 className="text-foreground font-semibold mb-6">Quick Links</h4>
+              <ul className="space-y-3">
+                {[
+                  { label: 'About Me', id: 'about' },
+                  { label: 'Services', id: 'services' },
+                  { label: 'Projects', id: 'projects' },
+                  { label: 'Skills', id: 'skills' },
+                  { label: 'Contact', id: 'contact' }
+                ].map((link) => (
+                  <li key={link.id}>
+                    <button
+                      onClick={() => scrollToSection(link.id)}
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      {link.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            {/* CTA Button */}
-            <div className="mt-6">
-              <button 
-                onClick={() => scrollToSection('booking')}
-                className="btn-gold w-full text-sm py-2 px-4"
-              >
-                Start Project
-              </button>
+            {/* Contact Info */}
+            <div>
+              <h4 className="text-foreground font-semibold mb-6">Get in Touch</h4>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Phone size={16} className="text-primary" />
+                  <a 
+                    href="tel:+251995817222" 
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    +251995817222
+                  </a>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <Mail size={16} className="text-primary" />
+                  <a 
+                    href="mailto:ahmedexka@gmail.com" 
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    ahmedexka@gmail.com
+                  </a>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <MessageCircle size={16} className="text-primary" />
+                  <a 
+                    href="https://t.me/+251995817222" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    +251995817222
+                  </a>
+                </div>
+              </div>
+
+              {/* CTA Button */}
+              <div className="mt-6">
+                <button 
+                  onClick={() => scrollToSection('booking')}
+                  className="btn-gold w-full text-sm py-2 px-4"
+                >
+                  Start Project
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-muted-foreground text-sm">
-              © {currentYear} Ahmed Bashir Ahmed. All rights reserved.
+              &copy; {currentYear} Ahmed Bashir. All rights reserved.
             </div>
             
             <div className="flex items-center gap-6 text-sm">
@@ -161,7 +161,7 @@ const Footer = () => {
 
       {/* Floating Background Elements */}
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -z-10"></div>
-      <div className="absolute top-0 right-0 w-80 h-80 bg-primary/3 rounded-full blur-3xl -z-10"></div>
+      <div className="absolute top-0 right-0 w-80 h-80 bg-primary/5 rounded-full blur-3xl -z-10"></div>
     </footer>
   );
 };
