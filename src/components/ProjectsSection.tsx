@@ -93,7 +93,7 @@ const ProjectsSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={project.id}
@@ -209,7 +209,7 @@ const ProjectsSection = () => {
             </a>
             <button 
               onClick={() => {
-                const element = document.getElementById('contact');
+                const element = document.getElementById('booking');
                 element?.scrollIntoView({ behavior: 'smooth' });
               }}
               className="btn-gold"

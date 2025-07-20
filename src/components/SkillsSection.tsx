@@ -201,7 +201,7 @@ const SkillsSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
               onClick={() => {
-                const element = document.getElementById('contact');
+                const element = document.getElementById('booking');
                 element?.scrollIntoView({ behavior: 'smooth' });
               }}
               className="btn-gold"

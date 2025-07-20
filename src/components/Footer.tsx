@@ -19,9 +19,9 @@ const Footer = () => {
     <footer className="bg-gradient-dark border-t border-border">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Brand & Bio */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             <div className="mb-6">
               <h3 className="text-2xl font-bold text-gradient mb-4">
                 Ahmed Bashir
@@ -31,8 +31,6 @@ const Footer = () => {
                 scalable web applications, hotel booking systems, and intelligent business solutions.
               </p>
             </div>
-            
-            {/* Social Links */}
             <div className="flex gap-4">
               <a
                 href="https://github.com"
@@ -42,7 +40,6 @@ const Footer = () => {
               >
                 <Github size={20} className="text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
-              
               <a
                 href="https://www.linkedin.com/in/ahmed-bashir-278289343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
@@ -51,7 +48,6 @@ const Footer = () => {
               >
                 <Linkedin size={20} className="text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
-              
               <a
                 href="https://t.me/+251995817222"
                 target="_blank"
@@ -62,6 +58,9 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
+          {/* Quick Links & Contact Info */}
+          <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
 
           {/* Quick Links */}
           <div>
